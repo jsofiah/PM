@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:hello_world/basic_widgets/image_widget.dart';
+import 'package:hello_world/basic_widgets/text_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -102,9 +104,9 @@ class _MyHomePageState extends State<MyHomePage> {
           // TRY THIS: Invoke "debug painting" (choose the "Toggle Debug Paint"
           // action in the IDE, or press "p" in the console), to see the
           // wireframe for each widget.
-          mainAxisAlignment: .center,
-          children: [
-            const Text('Nama saya Sofiah, Kelas SIB 2D, Nomor Absen 20'),
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            const MyImageWidget(),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
