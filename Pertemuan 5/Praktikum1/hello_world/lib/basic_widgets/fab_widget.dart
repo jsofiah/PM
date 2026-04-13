@@ -9,7 +9,9 @@ class MyFabWidget extends StatelessWidget {
       home: Scaffold(
         floatingActionButton: FloatingActionButton(
           onPressed: () {
-            // Add your onPressed code here!
+            ScaffoldMessenger.of(context).showSnackBar(
+              const SnackBar(content: Text('Tombol ditekan!')),
+            );
           },
           child: const Icon(Icons.thumb_up),
           backgroundColor: Colors.pink,
