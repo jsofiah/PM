@@ -67,7 +67,7 @@ Absen   : 20 <br>
 
 2. Silakan screenshot seperti pada Langkah 11, namun teks yang ditampilkan dalam aplikasi berupa nama lengkap Anda. Simpan file screenshot dengan nama 01.png pada folder images (buat folder baru jika belum ada) di project hello_world Anda. Lalu ubah isi README.md seperti berikut, sehingga tampil hasil screenshot pada file README.md. Kemudian push ke repository Anda. <br>
 ![prak3langkah2](img/Praktikum3Langkah2-1.jpg)<br>
-![prak3langkah2](img/Praktikum3Langkah2-2.png)<br>
+![prak3langkah2](img/Praktikum3Langkah2-2.jpeg)<br>
 
 ## Praktikum 4: Menerapkan Widget Dasar
 1. Langkah 1: Text Widget
@@ -76,54 +76,61 @@ Absen   : 20 <br>
 - Isi file main.dart<br>
 ![prak4langkah1](img/Praktikum4Langkah1-2.png)<br>
 - Hasil<br>
-![prak4langkah1](img/Praktikum4Langkah1-3.png)<br>
+![prak4langkah1](img/Praktikum4Langkah1-3.jpeg)<br>
 
 2. Langkah 2: Image Widget
 - Isi file image_widget.dart<br>
-![prak4langkah2](img/Praktikum4Langkah2-1.jpg)<br>
+![prak4langkah2](img/Praktikum4Langkah2-1.jpeg)<br>
 - Isi file pubspec.yaml<br>
 ![prak4langkah2](img/Praktikum4Langkah2-2.jpg)<br>
 - Isi file main.dart<br>
 ![prak4langkah2](img/Praktikum4Langkah2-3.png)<br>
 - Hasil<br>
-![prak4langkah2](img/Praktikum4Langkah2-4.png)<br>
+![prak4langkah2](img/Praktikum4Langkah2-4.jpeg)<br>
 
 ## Praktikum 5: Menerapkan Widget Material Design dan iOS Cupertino
 1. Langkah 1: Cupertino Button dan Loading Bar
 - Isi file loading_cupertino.dart<br>
 ![prak5langkah1](img/Praktikum5Langkah1.jpg)<br>
+- Isi file main.dart<br>
+![prak5langkah1](img/Praktikum5Langkah1-2.jpeg)<br>
+- Hasil <br>
+![prak5langkah1](img/Praktikum5Langkah1-3.jpeg)<br>
+
 2. Langkah 2: Floating Action Button (FAB)
 - Isi file fab_widget.dart<br>
 ![prak5langkah2](img/Praktikum5Langkah2.jpg)<br>
+- Isi file main.dart <br>
+![prak5langkah2](img/Praktikum5Langkah2-2.jpeg)<br>
+- Hasil <br>
+![prak5langkah2](img/Praktikum5Langkah2-3.jpeg)<br>
+
 3. Langkah 3: Scaffold Widget
 - Isi file main.dart<br>
 ![prak5langkah3](img/Praktikum5Langkah3-1.jpg)<br>
 ![prak5langkah3](img/Praktikum5Langkah3-2.jpg)<br>
 ![prak5langkah3](img/Praktikum5Langkah3-3.jpg)<br>
 - Hasil<br>
-![prak5langkah3](img/Praktikum5Langkah3-4.png)<br>
+![prak5langkah3](img/Praktikum5Langkah3-4.jpeg)<br>
 4. Langkah 4: Dialog Widget
 - Isi file main.dart<br>
 ![prak5langkah4](img/Praktikum5Langkah4-1.jpg)<br>
 ![prak5langkah4](img/Praktikum5Langkah4-2.jpg)<br>
 ![prak5langkah4](img/Praktikum5Langkah4-3.jpg)<br>
 - Hasil<br>
-![prak5langkah4](img/Praktikum5Langkah4-4.png)<br>
-![prak5langkah4](img/Praktikum5Langkah4-5.png)<br>
+![prak5langkah4](img/Praktikum5Langkah4-4.jpeg)<br>
+![prak5langkah4](img/Praktikum5Langkah4-5.jpeg)<br>
 5. Langkah 5: Input dan Selection Widget
 - Isi file main.dart<br>
 ![prak5langkah5](img/Praktikum5Langkah5-1.jpg)<br>
 - Hasil<br>
-![prak5langkah5](img/Praktikum5Langkah5-2.png)<br>
-![prak5langkah5](img/Praktikum5Langkah5-3.png)<br>
+![prak5langkah5](img/Praktikum5Langkah5-2.jpeg)<br>
+![prak5langkah5](img/Praktikum5Langkah5-3.jpeg)<br>
 6. Langkah 6: Date and Time Pickers
 - Isi file main.dart<br>
 ![prak5langkah6](img/Praktikum5Langkah6-1.jpg)<br>
 ![prak5langkah6](img/Praktikum5Langkah6-2.jpg)<br>
 ![prak5langkah6](img/Praktikum5Langkah6-3.jpg)<br>
 - Hasil <br>
-![prak5langkah6](img/Praktikum5Langkah6-4.png)<br>
-![prak5langkah6](img/Praktikum5Langkah6-5.png)<br>
-
-## Tugas Praktikum Codelabs: Your first Flutter app
-
+![prak5langkah6](img/Praktikum5Langkah6-4.jpeg)<br>
+![prak5langkah6](img/Praktikum5Langkah6-5.jpeg)<br>
