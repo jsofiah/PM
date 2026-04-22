@@ -65,6 +65,50 @@ class MyApp extends StatelessWidget {
     ),
   );
 
+  Widget gridTitle = Container(
+    padding: const EdgeInsets.all(16),
+    child: const Text(
+      'Rekomendasi Wisata Lainnya di Italia',
+      style: TextStyle(
+        fontSize: 18,
+        fontWeight: FontWeight.bold,
+      ),
+    ),
+  );
+
+
+  Widget _buildGrid() => GridView.extent(
+    maxCrossAxisExtent: 150,
+    padding: const EdgeInsets.all(8),
+    mainAxisSpacing: 8,
+    crossAxisSpacing: 8,
+    shrinkWrap: true,
+    physics: const NeverScrollableScrollPhysics(),
+    children: [
+      GridTile(
+        footer: Container(
+          color: Colors.black54,
+          child: const Text('Colosseum', style: TextStyle(color: Colors.white)),
+        ),
+        child: Image.asset('images/colosseum.jpg', fit: BoxFit.cover),
+      ),
+      GridTile(
+        footer: Container(
+          color: Colors.black54,
+          child: const Text('Venice', style: TextStyle(color: Colors.white)),
+        ),
+        child: Image.asset('images/venice.jpg', fit: BoxFit.cover),
+      ),
+      GridTile(
+        footer: Container(
+          color: Colors.black54,
+          child: const Text('Milan', style: TextStyle(color: Colors.white)),
+        ),
+        child: Image.asset('images/milan.jpg', fit: BoxFit.cover),
+      ),
+    ],
+  );
+
 
     return MaterialApp(
       title: 'Flutter layout: Sofiah - 244107060065',
@@ -83,6 +127,8 @@ class MyApp extends StatelessWidget {
             titleSection,
             buttonSection,
             textSection,
+            gridTitle,
+            _buildGrid(),
           ],
         ),
       ),
