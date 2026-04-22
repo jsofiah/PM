@@ -20,14 +20,14 @@ class MyApp extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.only(bottom: 8),
                   child: const Text(
-                    'Wisata Gunung di Batu',
+                    'Manarola',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
                   ),
                 ),
                 Text(
-                  'Batu, Malang, Indonesia',
+                  'Cinque Terre, Italia',
                   style: TextStyle(color:Color(0xFF808080)),
                 ),
               ],
@@ -53,6 +53,18 @@ class MyApp extends StatelessWidget {
       ],
     );
 
+    Widget textSection = Container(
+    padding: const EdgeInsets.all(32),
+    child: const Text(
+      'Manarola adalah salah satu desa paling indah di kawasan Cinque Terre, Italia. '
+      'Terkenal dengan rumah-rumah berwarna-warni yang berdiri di tepi tebing '
+      'menghadap Laut Liguria. Tempat ini menawarkan pemandangan spektakuler, '
+      'suasana romantis, serta spot fotografi yang sangat ikonik bagi wisatawan.\n\n'
+      'Nama: Sofiah\nNIM: 244107060065',
+      softWrap: true,
+    ),
+  );
+
 
     return MaterialApp(
       title: 'Flutter layout: Sofiah - 244107060065',
@@ -64,6 +76,7 @@ class MyApp extends StatelessWidget {
           children: [
             titleSection,
             buttonSection,
+            textSection,
           ],
         ),
       ),
