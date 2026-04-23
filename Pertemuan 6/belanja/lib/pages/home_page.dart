@@ -69,6 +69,7 @@ class HomePage extends StatelessWidget {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(12),
                 ),
+                elevation: 4,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -77,10 +78,13 @@ class HomePage extends StatelessWidget {
                         borderRadius: const BorderRadius.vertical(
                           top: Radius.circular(12),
                         ),
-                        child: Image.asset(
-                          item.image,
-                          width: double.infinity,
-                          fit: BoxFit.cover,
+                        child: Hero(
+                          tag: item.name,
+                          child: Image.asset(
+                            item.image,
+                            width: double.infinity,
+              fit: BoxFit.cover,
+                          ),
                         ),
                       ),
                     ),
@@ -93,7 +97,6 @@ class HomePage extends StatelessWidget {
                           Text(item.name,
                               style: const TextStyle(
                                   fontWeight: FontWeight.bold)),
-
                           Text('Rp ${item.price}'),
 
                           Row(
@@ -119,6 +122,16 @@ class HomePage extends StatelessWidget {
           },
         ),
       ),
+
+      bottomNavigationBar: const Padding(
+        padding: EdgeInsets.all(8),
+        child: Text(
+          'Sofiah - 244107060065',
+          textAlign: TextAlign.center,
+        ),
+      ),
     );
+
+    
   }
 }
