@@ -16,17 +16,32 @@ class ItemPage extends StatelessWidget{
           'Detail Item',
         ),
       ),
-      body: Center(
+      body: Padding(
+        padding: const EdgeInsets.all(16),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            Image.asset(item.image),
+            const SizedBox(height: 16),
+
             Text(
-              'Nama: ${item.name}',
-              style: const TextStyle(fontSize: 20),
+              item.name,
+              style: const TextStyle(
+                  fontSize: 24, fontWeight: FontWeight.bold),
             ),
-            Text(
-              'Harga: ${item.price}',
-              style: const TextStyle(fontSize: 20),
+
+            Text('Rp ${item.price}',
+                style: const TextStyle(fontSize: 20)),
+
+            const SizedBox(height: 10),
+
+            Text('Stock: ${item.stock}'),
+
+            Row(
+              children: [
+                const Icon(Icons.star, color: Colors.orange),
+                Text(item.rating.toString()),
+              ],
             ),
           ],
         ),
