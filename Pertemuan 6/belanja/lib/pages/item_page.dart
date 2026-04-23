@@ -38,7 +38,7 @@ class ItemPage extends StatelessWidget {
             ),
 
             Text(
-              'Rp ${item.price}',
+              'Rp. ${item.price}',
               style: const TextStyle(fontSize: 20),
             ),
 

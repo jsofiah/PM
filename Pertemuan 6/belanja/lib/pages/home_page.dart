@@ -69,7 +69,6 @@ class HomePage extends StatelessWidget {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(12),
                 ),
-                elevation: 4,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
@@ -83,7 +82,7 @@ class HomePage extends StatelessWidget {
                           child: Image.asset(
                             item.image,
                             width: double.infinity,
-              fit: BoxFit.cover,
+                            fit: BoxFit.cover,
                           ),
                         ),
                       ),
