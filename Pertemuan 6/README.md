@@ -126,7 +126,7 @@ Absen   : 20 <br>
 ![tugas_prak2](img/tugas_prak2/TugasNomor3-17.png)<br>
 ![tugas_prak2](img/tugas_prak2/TugasNomor3-18.png)<br>
 - Hasil <br>
-<video src="img/tugas_prak2/TugasNomor3-19.mp4" controls width="600"></video>
+https://github.com/user-attachments/assets/59a1a714-fe52-4515-9b07-da560c205e9b
 
 5. Sesuaikan dan modifikasi tampilan sehingga menjadi aplikasi yang menarik. Selain itu, pecah widget menjadi kode yang lebih kecil. Tambahkan Nama dan NIM di footer aplikasi belanja Anda. <br>
 - Isi file footer_widget.dart <br>
@@ -148,7 +148,7 @@ Absen   : 20 <br>
 ![tugas_prak2](img/tugas_prak2/TugasNomor3-30.png)<br>
 ![tugas_prak2](img/tugas_prak2/TugasNomor3-31.png)<br>
 - Hasil <br>
-<video src="img/tugas_prak2/TugasNomor3-32.mp4" controls width="600"></video>
+(https://github.com/user-attachments/assets/5ec8c0d4-1fc8-4fd8-81a4-dd2a2870d423)
 
 
 
