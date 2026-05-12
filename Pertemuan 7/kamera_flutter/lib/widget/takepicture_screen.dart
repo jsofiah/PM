@@ -42,6 +42,28 @@ class TakePictureScreenState
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Take a picture - 244107060065'),
+      ),
+
+      body: FutureBuilder<void>(
+        future: _initializeControllerFuture,
+
+        builder: (context, snapshot) {
+          if (snapshot.connectionState ==
+              ConnectionState.done) {
+
+            return CameraPreview(_controller);
+
+          } else {
+
+            return const Center(
+              child: CircularProgressIndicator(),
+            );
+          }
+        },
+      ),
+    );
   }
 }
