@@ -64,6 +64,22 @@ class TakePictureScreenState
           }
         },
       ),
+
+      floatingActionButton: FloatingActionButton(
+        onPressed: () async {
+          try {
+            await _initializeControllerFuture;
+
+            final image =
+                await _controller.takePicture();
+
+          } catch (e) {
+            print(e);
+          }
+        },
+
+        child: const Icon(Icons.camera_alt),
+      ),
     );
   }
 }
