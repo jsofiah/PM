@@ -1,5 +1,6 @@
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
+import 'displaypicture_screen.dart';
 
 class TakePictureScreen extends StatefulWidget {
   const TakePictureScreen({
@@ -72,6 +73,17 @@ class TakePictureScreenState
 
             final image =
                 await _controller.takePicture();
+
+            if (!context.mounted) return;
+
+            await Navigator.of(context).push(
+              MaterialPageRoute(
+                builder: (context) =>
+                    DisplayPictureScreen(
+                  imagePath: image.path,
+                ),
+              ),
+            );
 
           } catch (e) {
             print(e);
