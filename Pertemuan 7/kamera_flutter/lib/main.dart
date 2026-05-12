@@ -9,7 +9,13 @@ Future<void> main() async {
   final firstCamera = cameras.first;
 
   runApp(
-    MyApp(camera: firstCamera),
+    MaterialApp(
+      theme: ThemeData.dark(),
+      home: TakePictureScreen(
+        camera: firstCamera,
+      ),
+      debugShowCheckedModeBanner: false,
+    ),
   );
 }
 
