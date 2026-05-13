@@ -5,29 +5,29 @@ NIM     : 244107060065 <br>
 Absen   : 20 <br>
 
 1. Langkah 1: Buat Project Baru<br>
-![prak1langkah1](img/Praktikum1Langkah1.png)<br>
-![prak1langkah1](img/Praktikum1Langkah1-2.png)<br>
+![prak1langkah1](img/manajemen_plugin/Praktikum1Langkah1.png)<br>
+![prak1langkah1](img/manajemen_plugin/Praktikum1Langkah1-2.png)<br>
 
 2. Langkah 2: Menambahkan Plugin<br>
-![prak1langkah2](img/Praktikum1Langkah2.png)<br>
-![prak1langkah2](img/Praktikum1Langkah2-2.png)<br>
+![prak1langkah2](img/manajemen_plugin/Praktikum1Langkah2.png)<br>
+![prak1langkah2](img/manajemen_plugin/Praktikum1Langkah2-2.png)<br>
 
 3. Langkah 3: Buat file red_text_widget.dart<br>
-![prak1langkah3](img/Praktikum1Langkah3.png)<br>
+![prak1langkah3](img/manajemen_plugin/Praktikum1Langkah3.png)<br>
 
 4. Langkah 4: Tambah Widget AutoSizeText<br>
-![prak1langkah4](img/Praktikum1Langkah4.png)<br>
+![prak1langkah4](img/manajemen_plugin/Praktikum1Langkah4.png)<br>
 Setelah Anda menambahkan kode di atas, Anda akan mendapatkan info error. Mengapa demikian? Jelaskan dalam laporan praktikum Anda! <br>
 - Error terjadi karena plugin auto_size_text belum di-import ke dalam file, sehingga widget AutoSizeText tidak dikenali oleh Flutter. Selain itu, variabel text juga belum dideklarasikan pada class RedTextWidget, sehingga menyebabkan error undefined variable saat digunakan.<br>
 
 5. Langkah 5: Buat Variabel text dan parameter di constructor<br>
-![prak1langkah5](img/Praktikum1Langkah5.png)<br>
+![prak1langkah5](img/manajemen_plugin/Praktikum1Langkah5.png)<br>
 
 6. Langkah 6: Tambahkan widget di main.dart
-![prak1langkah6](img/Praktikum1Langkah6.png)<br>
+![prak1langkah6](img/manajemen_plugin/Praktikum1Langkah6.png)<br>
 
 7. Hasil
-![prak1langkah7](img/Praktikum1Langkah7.jpeg)<br>
+![prak1langkah7](img/manajemen_plugin/Praktikum1Langkah7.jpeg)<br>
 
 
 ## Tugas Praktikum 1
@@ -66,3 +66,43 @@ Harus diurutkan dari terbesar ke terkecil dan akan digunakan sebagai alternatif 
 
 6. Kumpulkan laporan praktikum Anda berupa link repository GitHub kepada dosen!
 
+# Laporan Praktikum 07 : Kamera
+
+## Praktikum 1: Mengambil Foto dengan Kamera di Flutter
+1. Langkah 1: Buat Project Baru<br>
+![prak1langkah1](img/kamera/Praktikum1Langkah1.png)<br>
+![prak1langkah1](img/kamera/Praktikum1Langkah1-2.png)<br>
+
+2. Langkah 2: Tambah dependensi yang diperlukan<br>
+![prak1langkah2](img/kamera/Praktikum1Langkah2.png)<br>
+![prak1langkah2](img/kamera/Praktikum1Langkah2-2.png)<br>
+
+3. Langkah 3: Ambil Sensor Kamera dari device <br>
+![prak1langkah3](img/kamera/Praktikum1Langkah3.png)<br>
+
+4. Langkah 4: Buat dan inisialisasi CameraController <br>
+![prak1langkah4](img/kamera/Praktikum1Langkah4.png)<br>
+![prak1langkah4](img/kamera/Praktikum1Langkah4-2.png)<br>
+
+5. Langkah 5: Gunakan CameraPreview untuk menampilkan preview foto <br>
+![prak1langkah5](img/kamera/Praktikum1Langkah5.png)<br>
+- Hasil di hp<br>
+![prak1langkah5](img/kamera/Praktikum1Langkah5-2.jpeg)<br>
+![prak1langkah5](img/kamera/Praktikum1Langkah5-3.jpeg)<br>
+
+6. Langkah 6: Ambil foto dengan CameraController <br>
+![prak1langkah6](img/kamera/Praktikum1Langkah6.png)<br>
+- Hasil di hp<br>
+![prak1langkah6](img/kamera/Praktikum1Langkah6-2.jpeg)<br>
+
+7. Langkah 7: Buat widget baru DisplayPictureScreen <br>
+![prak1langkah7](img/kamera/Praktikum1Langkah7.png)<br>
+
+8. Langkah 8: Edit main.dart<br>
+![prak1langkah8](img/kamera/Praktikum1Langkah8.png)<br>
+
+9. Langkah 9: Menampilkan hasil foto<br>
+![prak1langkah9](img/kamera/Praktikum1Langkah9.png)<br>
+- Hasil di hp<br>
+![prak1langkah9](img/kamera/Praktikum1Langkah9-2.jpeg)<br>
+![prak1langkah9](img/kamera/Praktikum1Langkah9-3.jpeg)<br>
