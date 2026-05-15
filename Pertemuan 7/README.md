@@ -106,3 +106,43 @@ Harus diurutkan dari terbesar ke terkecil dan akan digunakan sebagai alternatif 
 - Hasil di hp<br>
 ![prak1langkah9](img/kamera/Praktikum1Langkah9-2.jpeg)<br>
 ![prak1langkah9](img/kamera/Praktikum1Langkah9-3.jpeg)<br>
+
+## Praktikum 2: Membuat photo filter carousel
+1. Langkah 1: Buat project baru<br>
+![prak2langkah1](img/kamera/Praktikum2Langkah1.png)<br>
+![prak2langkah1](img/kamera/Praktikum2Langkah1-2.png)<br>
+
+2. Langkah 2: Buat widget Selector ring dan dark gradient<br>
+- Isi file lib/widget/filter_selector.dart<br>
+![prak2langkah2](img/kamera/Praktikum2Langkah2.png)<br>
+![prak2langkah2](img/kamera/Praktikum2Langkah2-2.png)<br>
+![prak2langkah2](img/kamera/Praktikum2Langkah2-3.png)<br>
+![prak2langkah2](img/kamera/Praktikum2Langkah2-4.png)<br>
+![prak2langkah2](img/kamera/Praktikum2Langkah2-5.png)<br>
+![prak2langkah2](img/kamera/Praktikum2Langkah2-6.png)<br>
+![prak2langkah2](img/kamera/Praktikum2Langkah2-7.png)<br>
+![prak2langkah2](img/kamera/Praktikum2Langkah2-8.png)<br>
+
+3. Langkah 3: Buat widget photo filter carousel<br>
+- Isi file lib/widget/filter_carousel.dart<br>
+![prak2langkah3](img/kamera/Praktikum2Langkah3.png)<br>
+![prak2langkah3](img/kamera/Praktikum2Langkah3-2.png)<br>
+![prak2langkah3](img/kamera/Praktikum2Langkah3-3.png)<br>
+
+4. Langkah 4: Membuat filter warna - bagian 1<br>
+- Isi file lib/widget/carousel_flowdelegate.dart<br>
+![prak2langkah4](img/kamera/Praktikum2Langkah4.png)<br>
+![prak2langkah4](img/kamera/Praktikum2Langkah4-2.png)<br>
+![prak2langkah4](img/kamera/Praktikum2Langkah4-3.png)<br>
+
+5. Langkah 5: Membuat filter warna<br>
+- Isi file lib/widget/filter_item.dart<br>
+![prak2langkah5](img/kamera/Praktikum2Langkah5.png)<br>
+
+6. Langkah 6: Implementasi filter carousel<br>
+- Isi file lib/main.dart<br>
+![prak2langkah6](img/kamera/Praktikum2Langkah6.png)<br>
+
+7. Hasil<br>
+![prak2langkah7](img/kamera/Praktikum2Hasil.jpeg)<br>
+(https://github.com/user-attachments/assets/5fc91254-e2bc-4687-a39b-69a21f49cdd5)
