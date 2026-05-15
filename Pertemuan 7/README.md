@@ -146,3 +146,15 @@ Harus diurutkan dari terbesar ke terkecil dan akan digunakan sebagai alternatif 
 7. Hasil<br>
 ![prak2langkah7](img/kamera/Praktikum2Hasil.jpeg)<br>
 (https://github.com/user-attachments/assets/5fc91254-e2bc-4687-a39b-69a21f49cdd5)
+
+## Tugas Praktikum
+1. Selesaikan Praktikum 1 dan 2, lalu dokumentasikan dan push ke repository Anda berupa screenshot setiap hasil pekerjaan beserta penjelasannya di file README.md! Jika terdapat error atau kode yang tidak dapat berjalan, silakan Anda perbaiki sesuai tujuan aplikasi dibuat!<br>
+2. Gabungkan hasil praktikum 1 dengan hasil praktikum 2 sehingga setelah melakukan pengambilan foto, dapat dibuat filter carouselnya!<br>
+- Hasilnya<br>
+(https://github.com/user-attachments/assets/36301345-2bc3-4eee-81f7-4e496d9fa74d)
+
+3. Jelaskan maksud void async pada praktikum 1?<br>
+- Kata kunci async pada void main() digunakan agar fungsi main() dapat menjalankan proses asynchronous atau proses yang membutuhkan waktu tertentu untuk diselesaikan. Pada praktikum 1, async digunakan bersama await ketika mengambil daftar kamera dari perangkat menggunakan availableCameras(). Proses tersebut tidak dapat berjalan secara langsung karena sistem perlu membaca perangkat kamera terlebih dahulu. Dengan adanya async, program dapat menunggu proses pengambilan kamera selesai sebelum aplikasi dijalankan menggunakan runApp(). Jika async tidak digunakan, maka await tidak dapat dipakai dan aplikasi bisa mengalami error karena kamera belum siap saat aplikasi dibuka.<br>
+4. Jelaskan fungsi dari anotasi @immutable dan @override ?<br>
+- Anotasi @immutable digunakan untuk menandakan bahwa suatu class bersifat tetap atau tidak dapat diubah setelah objek dibuat. Pada Flutter, anotasi ini biasanya digunakan pada widget agar semua atribut di dalam class bersifat final, sehingga data lebih aman dan konsisten. Sementara itu, anotasi @override digunakan ketika sebuah method menimpa atau menggantikan method yang berasal dari parent class. Contohnya adalah method build() yang dimiliki oleh StatelessWidget atau State. Dengan menggunakan @override, compiler dapat mengetahui bahwa method tersebut memang dibuat ulang dari parent class sehingga membantu mencegah kesalahan penulisan kode dan membuat program lebih mudah dipahami.<br>
+5. Kumpulkan link commit repository GitHub Anda kepada dosen yang telah disepakati!<br>
